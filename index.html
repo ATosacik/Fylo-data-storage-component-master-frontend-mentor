@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Title -->
+  <title>Frontend Mentor | Fylo data storage component</title>
+  <!-- Css -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- JavaScript -->
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="main-fylo-con flex txt--clr-neutral-1">
+      <div style="--gap: 2rem">
+        <a href="#"><img src="./images/logo.svg" alt="logo"></a>
+        <div>
+          <button class="icon-box"><img src="./images/icon-document.svg" alt="document"></button>
+          <button class="icon-box"><img src="./images/icon-folder.svg" alt="folder"></button>
+          <button class="icon-box"><img src="./images/icon-upload.svg" alt="upload"></button>
+        </div>
+      </div>
+      <div style="--outer-padding: 3rem 2rem">
+        <div class="space-left-box">
+          <p class="flex fw-700 txt--clr-neutral-2"><span class="txt--clr-neutral-4 fs-1000">185</span>GB Left</p>
+        </div>
+        <p>You’ve used <span class="fw-700">815 GB</span> of your storage</p>
+        <div class="progress-bar">
+          <div class="progress-bar-progress">
+            <div class="progress-bar-progress-dot"></div>
+          </div>
+        </div>
+        <div class="flex flex--space-between">
+          <p class="fw-700">0 GB</p>
+          <p class="fw-700">1000 GB</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
